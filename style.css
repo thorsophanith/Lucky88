@@ -43,8 +43,9 @@
     transition-duration: 0.3s;
   }
   
-  @media all and (max-width: 745px){
+  @media (max-width: 640px){
     .block-box{
       display: none;
+      background-color: blue;
     }
   }
